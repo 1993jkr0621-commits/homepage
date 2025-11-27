@@ -17,29 +17,42 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">이름 <span class="subtitle">(Data Scientist)</span></h1>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="resume.html" class="button">Resume</a></li>
-        </ul>
-      </nav>
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="avatar"><img src="./assets/images/avatar.svg" alt="Avatar" style="width:100%;height:100%;object-fit:cover"/></div>
+        <div>
+          <h1 class="site-title">이름 <span class="subtitle">(Data Scientist)</span></h1>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <input id="menu-toggle" class="menu-toggle sr-only" type="checkbox" aria-label="Toggle navigation" />
+        <label for="menu-toggle" class="menu-icon" aria-hidden="true">☰</label>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume.html" class="button">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <section id="hero" class="hero">
       <div class="container hero-inner">
-        <h2>데이터로 스토리텔링하고 행동을 이끄는 데이터 사이언티스트</h2>
-        <p>모델링, 시각화, 제품형 데이터 파이프라인 개발에 관심이 있습니다. 이 페이지에서 주요 프로젝트와 기술 스택을 확인하세요.</p>
-        <div class="hero-cta">
-          <a href="#projects" class="button">프로젝트 보기</a>
-          <a href="#contact" class="button outline">연락하기</a>
+        <div>
+          <h2>데이터로 스토리텔링하고 행동을 이끄는 데이터 사이언티스트</h2>
+          <p>모델링, 시각화, 제품형 데이터 파이프라인 개발에 관심이 있습니다. 이 페이지에서 주요 프로젝트와 기술 스택을 확인하세요.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="button">프로젝트 보기</a>
+            <a href="#contact" class="button outline">연락하기</a>
+          </div>
         </div>
+        <div class="hero-avatar" aria-hidden="true"><img src="./assets/images/avatar.svg" alt="프로필 이미지"/></div>
       </div>
     </section>
 
@@ -90,8 +103,16 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 이름. All rights reserved.</p>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© 2025 이름. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <p class="social-list">
+          <a href="https://github.com/username" target="_blank" aria-label="GitHub"><img src="./assets/images/icon-github.svg" alt="GitHub"/></a>
+          <a href="https://linkedin.com/in/username" target="_blank" aria-label="LinkedIn"><img src="./assets/images/icon-linkedin.svg" alt="LinkedIn"/></a>
+        </p>
+      </div>
     </div>
   </footer>
 </body>

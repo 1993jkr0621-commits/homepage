@@ -19,6 +19,16 @@ async function loadProjects(){
   }
 }
 
+  function setupMenuToggle(){
+    const menuToggle = document.getElementById('menu-toggle');
+    if(!menuToggle) return;
+    // Close menu when user presses Escape
+    document.addEventListener('keydown', (ev)=>{
+      if(ev.key === 'Escape') menuToggle.checked = false;
+    });
+  }
+
 window.addEventListener('DOMContentLoaded', ()=>{
   loadProjects();
-});
+    setupMenuToggle();
+  });
