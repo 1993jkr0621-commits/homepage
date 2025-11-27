@@ -31,6 +31,8 @@ GitHub Pages를 사용해 간단히 배포할 수 있습니다:
 ## 커스터마이즈 가이드
 
 - `projects.json`에 프로젝트를 추가하면 자동으로 메인 페이지에 표시됩니다.
+- 예시: `proj-4` — "EDA & Feature Engineering" 프로젝트를 추가했습니다. 상세 페이지는 `projects/eda-feature-engineering.html`에 있습니다.
+- 로컬 상세 페이지를 추가하려면 `projects/`에 HTML 파일을 만들고 `projects.json`에서 `link`를 해당 경로로 설정하세요.
 - `index.html`과 `style.css`를 편집하여 디자인과 레이아웃을 커스터마이즈하세요.
 - Contact 폼은 기본적으로 `mailto:` 링크로 구성되어 있으나, 원하시면 서버리스 함수(예: Netlify Functions)나 서버 백엔드로 확장해 드립니다.
 

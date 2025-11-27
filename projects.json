@@ -23,4 +23,13 @@
     "image": "./assets/images/image-classifier.svg",
     "link": "https://github.com/username/project-pytorch"
   }
+  ,
+  {
+    "id": "proj-4",
+    "title": "EDA & Feature Engineering (Python 데이터 분석)",
+    "desc": "데이터 클렌징, 탐색적 분석(EDA), 그리고 특성 엔지니어링을 통해 예측 모델의 성능을 개선한 프로젝트입니다.",
+    "tools": ["Python", "pandas", "numpy", "matplotlib", "seaborn", "scikit-learn"],
+    "image": "./assets/images/data-analysis.svg",
+    "link": "./projects/eda-feature-engineering.html"
+  }
 ]
