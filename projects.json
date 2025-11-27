@@ -1,0 +1,26 @@
+[
+  {
+    "id": "proj-1",
+    "title": "수요 예측 모델 (Time Series Forecasting)",
+    "desc": "판매 데이터와 외부 요인을 사용해 시계열 예측과 수요 최적화를 수행했습니다.",
+    "tools": ["Python", "pandas", "Prophet", "ARIMA"],
+    "image": "./assets/images/ts-forecast.svg",
+    "link": "https://github.com/username/project-timeseries"
+  },
+  {
+    "id": "proj-2",
+    "title": "추천 시스템 (Collaborative Filtering)",
+    "desc": "유저-아이템 행동 로그를 사용한 추천 알고리즘 적용 및 평가를 수행했습니다.",
+    "tools": ["Python", "LightFM", "scikit-learn", "SQL"],
+    "image": "./assets/images/recommender.svg",
+    "link": "https://github.com/username/project-recommender"
+  },
+  {
+    "id": "proj-3",
+    "title": "이미지 분류 딥러닝 (PyTorch)",
+    "desc": "전이학습 기반의 이미지 분류기와 모델 모니터링 파이프라인을 구현했습니다.",
+    "tools": ["Python", "PyTorch", "FastAPI"],
+    "image": "./assets/images/image-classifier.svg",
+    "link": "https://github.com/username/project-pytorch"
+  }
+]
